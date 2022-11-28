@@ -18,10 +18,13 @@
   },
   "homepage": "https://github.com/dve98/Pagos#readme",
   "dependencies": {
-    "dotenv": "^16.0.3"
+    "axios": "^1.2.0",
+    "dotenv": "^16.0.3",
+    "tsyringe": "^4.7.0"
   },
   "devDependencies": {
     "@types/aws-lambda": "^8.10.97",
+    "@types/reflect-metadata": "^0.1.0",
     "jest": "^29.3.1",
     "serverless-dotenv-plugin": "^4.0.2",
     "serverless-offline": "^11.3.0",
